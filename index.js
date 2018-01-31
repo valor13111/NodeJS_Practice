@@ -18,3 +18,5 @@ personArray.push(tyler, brandon, will);
 personArray.forEach(function(item, index, array) {
   console.log(item.getInfo());
 });
+
+console.log(tyler.getId());

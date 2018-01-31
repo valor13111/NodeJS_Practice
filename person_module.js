@@ -24,6 +24,10 @@ module.exports = function(id, firstName, lastName) {
         firstName: firstName,
         lastName: lastName
       }
+    },
+
+    getId: function() {
+      return "ID: " + id;
     }
 
   };
